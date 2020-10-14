@@ -877,7 +877,7 @@ if (empty($arRunErrors))
 						{
 							if (strncmp($field_name, "IE_", 3) == 0) {
 								// add URL
-								if ($field_name == 'IE_DETAIL_PAGE_URL') $domain = 'https://mebellotus.com';
+								if ($field_name == 'IE_DETAIL_PAGE_URL') $domain = 'https://site.ru';
 								else $domain = '';
 								// end URL
 								$arTuple[] = $domain.$arIBlockElement["~".substr($field_name, 3)];
